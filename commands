@@ -79,4 +79,21 @@ touch <file name> - it is used to create the empty files and if that file exists
 touch file1.txt file2.txt file3.txt
 touch file{1..5} - it craetes 5 files from file1 to file5
 ============================================================
-
+nano editor:
+ctrl + k - for cuttig the text
+ctrl + u - for pasting that cutting text
+============================================================
+sudo command
+============
+sudo - super uder do
+sudo -s (for going to super user in ubuntu)
+===============================================
+top (used to seeing the proceeses)
+The top command displays all the running process within the environment of your system.
+It helps in monitoring system usage and performances. It is mainly used to detect load on the server by system administrators. 
+The top command stands for table of processes.
+pres i - for showing the running processes
+press - s for changing the timing
+press q - for quitting
+=============================================================
+==============================================================================

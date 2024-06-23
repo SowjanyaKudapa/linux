@@ -32,4 +32,17 @@ cat -n <file> - it is giving line numbers for gaps also
 cat -s <file1> - it maintains single line gap
 cat -E <file> (here <file> = list) - it will give all name started with file
 ===========================================================================================================
-  mkdir <folder name> - used to craete a directory
+mkdir <folder name> 
+ex: mkdir image - used to craete a directory
+mkdir image/pics - here we are creating pics folfer in image folder and that image folder we created before, so there is no pblm to create the pics folder in this way
+mkdir names/mark - here we are creating names folder in namesfolder and we didn't have the names folder, so it gives error
+to resolve this we are using -p(parent)
+mkdir -p names/mark - no pblm here it creates 2 directories
+mkdir -pnames/{john,bob,tom} - it creates john,bob, tom directories in names directory.
+mkdir abd
+rmdir abd
+mkdir -p a/b/c/d/e
+ls -R to watch inside the directories
+rmdir -pv a/b/c/d/e (here v is verbose)
+verbose is used to showing the functionality of steps.
+=============================================================================================================

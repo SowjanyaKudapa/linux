@@ -1,0 +1,35 @@
+pwd - print working directory
+===============================
+cd - change directory
+cd / - return to / directory
+cd /documents/books
+in cd or any name files in linux it doesn't include the space after first word, for this we have 3 techniques
+  1.cd my\ books
+  2.cd "my books"
+  3.cd 'my books'
+=========================================
+ls - to see the files and folders
+ls -l - to see files and folders with extra info
+ls /home/downloads - it shows the files and folders in /home/dowmloads directory
+ls .. - it gives the files and folders in one step before path with the current path
+ls -a - it show hidden files also
+ls -al - hidden files with long list
+ls -lS - access the files in sorted order.
+"*+?" these are wild cards
+ls documents/*.html - it shows the .html files in documents folder
+ls documents/*.* - it shows the files in documents folder
+ls -lS > out.txt - it will create a out.txt file and with data of ls -lS in that new out.txt file.
+ls -d */ - listing all directories
+man ls - man is the help command to check extra info of any command.
+======================================================================================================
+cat <file name> - for seeing the info in that file
+cat <file1> <file2> - it gives the combination of 2 files(means concatenation of file1 and file2)
+cat <file1> <file2> > out.txt -> to create a out.txt file with inforamation of file1 and file2
+cat out.txt - for checking the out.txt output
+cat <file1> >> <file2> -> without extracreating another file, the file1 and file2 content is in file2 file.
+cat -b <file> ->it is used to asign the line numbers for that file
+cat -n <file> - it is giving line numbers for gaps also
+cat -s <file1> - it maintains single line gap
+cat -E <file> (here <file> = list) - it will give all name started with file
+===========================================================================================================
+  mkdir <folder name> - used to craete a directory

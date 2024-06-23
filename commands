@@ -46,3 +46,15 @@ ls -R to watch inside the directories
 rmdir -pv a/b/c/d/e (here v is verbose)
 verbose is used to showing the functionality of steps.
 =============================================================================================================
+copy command
+============
+ls dir1
+cp file.txt dir1 -> here the file.txt is copying inside the dir1
+ls dir1
+cp file1.txt file2.txt dir2
+ls dir2
+cp -i file1.txt file2.txt dir1 -> it will asks for overriding
+cp -r dir1 dir3 (here -r is recursive copy)
+cp -vr dir1 dir2 (v for verbose)
+=================================================================================================================
+

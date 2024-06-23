@@ -57,4 +57,26 @@ cp -i file1.txt file2.txt dir1 -> it will asks for overriding
 cp -r dir1 dir3 (here -r is recursive copy)
 cp -vr dir1 dir2 (v for verbose)
 =================================================================================================================
+move command
+================
+mv file1.txt file2.txt -> it deleted the file1 and file1 content is in file2
+mv fil1.txt dir1
+mv dir2 dir3 - if directory 3 doesnot exist it creates.
+mv -v file.txt dir3 (v for verbose - it gives explanation)
+man mv
+======================================================================================
+less command
+============
+less <filename> - for better reading
+press shift+G to end of the file
+press space bar for next page
+press 1 g for going to starting the file
+/<searching word name> - for searchimg that in that file
+===========================================================
+touch command
+=============
+touch <file name> - it is used to create the empty files and if that file exists it chnages the timestamp of that file.
+touch file1.txt file2.txt file3.txt
+touch file{1..5} - it craetes 5 files from file1 to file5
+============================================================
 
